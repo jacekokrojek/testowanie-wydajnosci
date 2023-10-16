@@ -21,6 +21,10 @@ Repozytorium z materiałami wykorzystywanymi na szkoleniu Testowanie Wydajności
         users.csv
 ```
 * W aktualnym katalogu otwórz wiersz poleceń (cmd)
-* Wykonaj polecenie ```SET IP=3.75.247.44```
-* Wykonaj polecenie ```run-stability-test.bat```
+* Wykonaj polecenie
+*   Bash: ```SET IP=3.75.247.44```
+*   ZSH:  ```EXPORT IP=3.75.247.44```
+* Wykonaj polecenie
+*   Windows: ```run-stability-test.bat```
+*   macOS:   ```run-stability-test-mac.sh```
 * Po zakończeniu działania skryptu (ok. 5 minut) w katalogu results powinien pojawić się katalog a w nim plik 'index.html'
