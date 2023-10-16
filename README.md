@@ -1,6 +1,7 @@
 # Testowanie Wydajności
 Repozytorium z materiałami wykorzystywanymi na szkoleniu Testowanie Wydajności.
 # Przygotowanie do szkolenia
+* Pobierz lub sklonuj to repozytorium
 * Pobierz i zainstaluj oprogramowanie Java SE 8 lub nowsze ze strony https://www.java.com/pl/download/
 * Pobierz aplikację JMeter ze strony https://jmeter.apache.org/download_jmeter.cgi. Rozpakuj archiwum do aktualnego katalogu. Po rozpakowaniu zprawdź czy aktualny katalog ma strukturę jak poniżej
 ```
