@@ -26,6 +26,7 @@ for /l %%v in (%MIN_USERS%,10,%MAX_USERS%) do (
         -n -t "%JMETER_SCRIPT%" ^
         -l "%RESULTS_FILE%" ^
         -j "%LOG_FILE%" ^
+        -q "scripts\user.properties" ^
         -e -o "%REPORT_DIR%\%%v" ^
         -Jip=%IP% ^
         -Jduration=300 ^

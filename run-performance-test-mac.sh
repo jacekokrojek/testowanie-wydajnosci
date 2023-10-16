@@ -26,6 +26,7 @@ for ((v=START_USERS; v<=MAX_USERS; v+=10)); do
         -n -t "$JMETER_SCRIPT" \
         -l "$RESULTS_FILE" \
         -j "$LOG_FILE" \
+        -q "scripts/user.properties" \
         -e -o "$REPORT_DIR" \
         -Jip="$IP" \
         -Jduration=300 \

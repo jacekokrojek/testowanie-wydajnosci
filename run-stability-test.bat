@@ -21,6 +21,7 @@ REM Run JMeter with the specified script and store results in the timestamped fi
         -n -t "%JMETER_SCRIPT%" ^
         -l "%RESULTS_FILE%" ^
         -j "%LOG_FILE%" ^
+        -q "scripts\user.properties" ^
         -e -o "%REPORT_DIR%" ^
         -Jip=%IP% ^
         -Jduration=300 ^
