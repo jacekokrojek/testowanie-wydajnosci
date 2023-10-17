@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 set "START_USERS=1"
-set "MAX_USERS=%START_USERS%"
+set "MAX_USERS=$START_USERS"
 
 set WORKING_DIR=%CD%
 
@@ -20,7 +20,7 @@ set REPORT_DIR=results\performance_%TIMESTAMP:~0,-3%
 
 mkdir %REPORT_DIR%
 
-for /l %%v in (%MIN_USERS%,10,%MAX_USERS%) do (
+for /l %%v in (%START_USERS%,10,%MAX_USERS%) do (
     REM Run JMeter with the specified script and store results in the timestamped file
     call "%JMETER_HOME%\bin\jmeter.bat" ^
         -n -t "%JMETER_SCRIPT%" ^
@@ -32,7 +32,7 @@ for /l %%v in (%MIN_USERS%,10,%MAX_USERS%) do (
         -Jduration=300 ^
         -Jvu1=0 ^
         -Jvu2=%%v ^
-        -Jusers=10
+        -Jusers=5
 
     move %LOG_FILE% %REPORT_DIR%\%%v
     move %RESULTS_FILE% %REPORT_DIR%\%%v
