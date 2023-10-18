@@ -40,3 +40,9 @@ export IP=3.75.247.44
 ```
 
 Po zakończeniu działania skryptu (ok. 5 minut) w katalogu results powinien pojawić się katalog a w nim plik 'index.html'
+
+Link do katalogu:
+https://drive.google.com/drive/folders/1gFQdXSJfKSh98gpsBH16Rde7iWWWKf2f?usp=sharing
+
+Link do pliku z adresami IP: 
+https://docs.google.com/spreadsheets/d/1EPcPBmqoAS6bVVesJIiiPV34DW0NQjEdYIHj7smaReg/edit?usp=sharing
