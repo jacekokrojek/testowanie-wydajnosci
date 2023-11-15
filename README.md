@@ -2,8 +2,10 @@
 Repozytorium z materiałami wykorzystywanymi na szkoleniu Testowanie Wydajności.
 # Przygotowanie do szkolenia
 - Pobierz lub sklonuj to repozytorium
-- Pobierz i zainstaluj oprogramowanie Java SE 8 lub nowsze ze strony https://www.java.com/pl/download/
+- Pobierz i zainstaluj przeglądarkę FireFox ze strony https://www.mozilla.org/pl/firefox/new/
+- Pobierz i zainstaluj oprogramowanie Java SE 8 lub nowsze ze strony https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 - Pobierz aplikację JMeter ze strony https://jmeter.apache.org/download_jmeter.cgi. Rozpakuj archiwum do aktualnego katalogu. Po rozpakowaniu zprawdź czy aktualny katalog ma strukturę jak poniżej
+
 ```
 |   README.md
 |   run-performance-test.bat
