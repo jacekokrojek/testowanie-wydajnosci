@@ -7,14 +7,14 @@ Często pomiędzy przygotowanie testów a ich wykonaniem mogą zajść zmiany na
 ## Rozgrzewanie środowiska
 Instalując nową wersję testowanego systemu musimy pamiętać o tym, iż na pierwsze kilkanaście odpowiedzi możemy czekać znacznie dłużej. Powodów tego zjawiska jest kilka, najczęstsze to:
 * Wirtualne maszyny .NET czy Java przy pierwszym przebiegu przez dany fragment kodu wykonują [kompilację JIT](https://pl.wikipedia.org/wiki/JIT_(informatyka)), który wydłuża wykonanie kodu.
-* Systemy wykorzystują różnego typu (pamięci podręczne cache)[https://pl.wikipedia.org/wiki/Pami%C4%99%C4%87_podr%C4%99czna] i muszą wypełnić je odpowiednimi danymi.
+* Systemy wykorzystują różnego typu [pamięci podręczne cache](https://pl.wikipedia.org/wiki/Pami%C4%99%C4%87_podr%C4%99czna) i muszą wypełnić je odpowiednimi danymi.
 * Działanie pewnych elementów systemu jest optymalizowane w odpowiedzi na określone obciążenie. 
 
 Działanie systemu może być na tyle nieoptymalne, że po instalacji będziemy obserwować błędy. Po obsłużeniu początkowych zapytań system zaczyna działać efektywnie i jest gotowy na testy. Zjawisko to nazywamy "rozgrzewaniem systemu".
 
 W celu zmniejszenia wpływu "rozgrzewania systemu" na wyniki testu, zaleca się po instalacji oprogramowania lub restarcie znacznie obciążyć system na pewien czas oraz zignorować uzyskane wyniki. W zależności od złożoności systemu okres "rozgrzewania" będzi się różnił ale nie powinien przekraczać kilku minut. Jeśli mamy w scenariuszach długie czasy pomiędzy akcjami użytkowników, warto na potrzeby rozgrzewania systemu maksymalnie je skrócić aby przyspieszyć ten proces.
 
-## Baselie test
+## Baseline test
 Choć nie jest to opisane w cytowanej procedurze, testy warto rozpocząć od uruchomienia testu dla jednego wirtualnego użytkownika. Czasy odpowiedzi jakie otrzymamy będą najniższymi jakie będziemy w stanie uzyskać. Już na tej podstawie będziemy mogli stwiedzić czy system spełnia stawiane mu wymagania. Wyniki będziemy mogli wykorzystać również później do pokazania jak zmieniają się w odpowiedzi na rosnące obciążenie. Warto pamiętać, że wyniczanie miar statystycznych ma sens dla odpowiednio dużej próby. W pracktyce 30 pomiarów jest absolutnym minimum ale zaleca się uzyskanie przynajmniej 100 pomiarów. 
 
 ## Określenie maksymalnych możliwości systemu
