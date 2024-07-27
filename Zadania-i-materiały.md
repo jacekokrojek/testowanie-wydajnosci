@@ -8,7 +8,7 @@ Materiały opisujące zachowania użytkowników systemów e-learningowych
 ## Planowanie
 
 Przykłady pokazujące planowanie testów
-* [Arkusz przygotowań do testów](docs/Przyklady%20raportow%20i%20specyfikacji/SPORTSHOP/Analiza%20i%20planowanie.xlsx)
+* [Arkusz przygotowań do testów e-commerce](docs/Przyklady%20raportow%20i%20specyfikacji/SPORTSHOP/Analiza%20i%20planowanie.xlsx)
 
 ## Wykonanie testów
 
@@ -82,3 +82,16 @@ Przykładowe procedury
     |-------------|-----------|
     | student0001 | Q!w2e3r4  |
     | student0100 | Q!w2e3r4  |
+
+## Monitorowanie systemu
+Materiały dla uczestników
+* [Extreme-Linux-Performance-Monitoring-and-Tuning](docs/monitoring/Extreme-Linux-Performance-Monitoring-and-Tuning-uuasc-june-2006.pdf)
+
+## Raportowanie
+Materiały dla uczestników
+* [Raport z testów e-commerce](docs/Przyklady%20raportow%20i%20specyfikacji/SPORTSHOP/Podsumowanie%20wstępnych%20testów%20wydajnościowych%20serwisu.docx)
+* [Raport porównujący dwie konfiguracje](docs/Przyklady%20raportow%20i%20specyfikacji/Raport%20z%20testów%20wydajnościowych%20-%20przykład.pdf)
+
+## Pozostałe materiały
+
+* [Performance Testing Guidance for Web](books/Performance%20Testing%20Guidance%20for%20Web%20Applications.pdf)
