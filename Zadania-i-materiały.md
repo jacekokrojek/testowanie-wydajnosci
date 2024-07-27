@@ -8,7 +8,7 @@ Materiały opisujące zachowania użytkowników systemów e-learningowych
 ## Planowanie
 
 Przykłady pokazujące planowanie testów
-* [Arkusz przygotowań do testów e-commerce](docs/Przyklady%20raportow%20i%20specyfikacji/SPORTSHOP/Analiza%20i%20planowanie.xlsx)
+* [Arkusz przygotowań do testów e-commerce](docs/przyklady/SPORTSHOP/analiza.xlsx)
 
 ## Wykonanie testów
 
@@ -89,8 +89,8 @@ Materiały dla uczestników
 
 ## Raportowanie
 Materiały dla uczestników
-* [Raport z testów e-commerce](docs/Przyklady%20raportow%20i%20specyfikacji/SPORTSHOP/Podsumowanie%20wstępnych%20testów%20wydajnościowych%20serwisu.docx)
-* [Raport porównujący dwie konfiguracje](docs/Przyklady%20raportow%20i%20specyfikacji/Raport%20z%20testów%20wydajnościowych%20-%20przykład.pdf)
+* [Raport z testów e-commerce](docs/przyklady/SPORTSHOP/raport.docx)
+* [Raport porównujący dwie konfiguracje](docs/przyklady/raport.pdf)
 
 ## Pozostałe materiały
 
