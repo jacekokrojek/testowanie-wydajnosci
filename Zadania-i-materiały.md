@@ -94,4 +94,4 @@ Materiały dla uczestników
 
 ## Pozostałe materiały
 
-* [Performance Testing Guidance for Web](books/Performance%20Testing%20Guidance%20for%20Web%20Applications.pdf)
+* [Performance Testing Guidance for Web](docs/Performance%20Testing%20Guidance%20for%20Web%20Applications.pdf)
