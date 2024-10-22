@@ -1,7 +1,7 @@
-# Przygotowanie środowiska testowego
+# Środowisko testowe
 Chcąc jak najszybciej wykonać testy, często zapominamy o zweryfikowaniu naszego środowiska testowego. Bardzo często skutukuje to później nieoczekiwanymi problemami i konicznością powtarzania testów. W myśl zasady "Nie mamy czasu chodzić na skróty" zadbajmy o sprawdzenenie i przygotowanie środowiska przed rozpoczęciem testów.
 
-## Powtarzalene wyniki
+## Powtarzalność wyników
 Najważniejszą czynnością jaką musimy wykonać przed rozpoczęciem testów to sprawdzenia na czasy odpowiedzi nie mają dużego wpływu różnego rodzaju zakłucenia. W statystyce mówimy o jednorodności pomiarów. Jeśli obserwujemy duże różnice w czasach odpowiedzi to będziemy mieć trudności aby stwierdzić czy aktualny wynik jest wiarygodny czy też jest wynikiem przypadku.
 
 Do prostego sprawdzenia jednorodności wyników możemy wykonać test pobierając nieduży plik z testowanego serwera co 15 sekund. Taki test powinien trwać przynajmniej 2h ale warto aby był dłuższy i trwał nawet dobę. Tak długi test pozwoli nam poznać godziny w jakich najlepiej wykonywać testy. 
