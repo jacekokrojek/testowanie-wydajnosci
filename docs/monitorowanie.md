@@ -110,11 +110,22 @@ Zapytania zawierające tekst error oraz nie zawierające tekstu timeout
 ```
 {job="nginx"} |= "error" != "timeout"
 ```
+Wyszukiwanie po tekście nie jest wygodne dlatego loki pozwala  w prosty sposób zdefiniować jakie dane występują w logach aby dalej się do nich odwoływać. 
+```
+83.30.46.250 - - [19/Oct/2024:11:40:37 +0000] "GET /ContactsWS/img/sjsi.png HTTP/1.1" 200 18173 "-" "Apache-HttpClient/4.5.14 (Java/17.0.6)" 0.001
+183.32.40.2 - - [19/Oct/2024:11:40:31 +0000] "GET /ContactsWS/img/sjsi.png HTTP/1.1" 200 18173 "-" "Apache-HttpClient/4.5.14 (Java/17.0.6)" 0.002
+83.30.46.250 - - [19/Oct/2024:11:40:24 +0000] "GET /ContactsWS/img/sjsi.png HTTP/1.1" 200 18173 "-" "Apache-HttpClient/4.5.14 (Java/17.0.6)" 0.001
+```
+Dla domyślnych ustawień logowania nginx możemy wykorzystać zapis poniżej aby odfiltrować zapytania z wybranego zakresu
+```
+{job="nginx"} | pattern `<ip> - - <_> "<method> <uri> <_>" <status> <size> "<_>" "<agent>" <duration>` | ip = "83.30.46.250"
+```
 
 Zapytanie zwracające liczbę wpisów w ostatnich 5 minutach
 ```
 count_over_time({job="nginx"}[5m])
 ```
+
 
 Więcej informacji znajdziesz pod linkiem [Querying Loki](https://grafana.com/docs/loki/latest/query/)
 
