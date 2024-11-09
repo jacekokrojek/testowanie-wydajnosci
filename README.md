@@ -6,11 +6,11 @@ Czy zastanawiałeś się, czy Twoja aplikacja może mieć problemy wydajnością
 
 Rozmawiając z kierownikami projektów i testerami, zauważyłem, że brakuje wiedzy na temat testowania wydajności. Literatura i materiały w sieci omawiają teorię ale przekucie jej w praktykę nasuwa wiele pytań. Skutkiem tego testy się przedłużają i nie wykrywają ważdnych problemów.
 
-Na kolejnych stronach podzielę się zatem z Wami moimi doświadczeniami. Opiszę na co zwracać uwagę począwszy od planowania, przez wykonanie testów aż po zaraportowanie wyników. Podpowiem na co zwrócić uwagę, aby uniknąć częstych błędów. Moje podejście nazwałem Power Performance Testing. Korzysta z niego wielu moich podopiecznych i wierzę, że sprawdzi się również w Twoim projekcie!
+W materiałach w tym repoztirium podzielę się z Tobą moimi doświadczeniami. Opiszę na co zwracać uwagę począwszy od planowania, przez wykonanie testów aż po zaraportowanie wyników. Podpowiem jak uniknąć częstych błędów. Moje podejście nazwałem **Power Performance Testing**. Korzysta z niego wielu moich podopiecznych i wierzę, że sprawdzi się również w Twoim projekcie!
 
 ## Spis treści
 ### Testowanie wydajności 
-- [Planowanie testów]()
+- [Testowanie wydajności w projekcie]()
 - [Wymagania]()
 - [Przygotowanie środowiska]()
 - [Wybór scenariuszy]()
