@@ -30,4 +30,4 @@ Power Performance Testing to też podejście do korzystania z narzędzi. Celem j
 
 ### Dodatkowe materiały
 
-[^1]: nananan[Google Micro-Moments](https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/micro-moments/)
+[^1]: [Google Micro-Moments](https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/micro-moments/)
