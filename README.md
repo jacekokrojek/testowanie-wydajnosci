@@ -1,4 +1,4 @@
-# Witaj na kursie Power Performance Testing
+# Witaj w Power Performance Testing
 
 Powolne działanie aplikacji frustruje i zniechęca do niej użytkowników. Jest jeszcze gorzej jeśli dochodzi do awarii lub utraty danych. Niestety tego typu problemy zdarzają się często. Dotykają nie tylko dużych ogólnopolskich serwisów ale również te mniejsze, działające lokalnie. Nie ma co ukrywać, ale dotykają również systemy wewnętrzne. 
 
@@ -9,8 +9,9 @@ Rozmawiając z kierownikami projektów i testerami, zauważyłem, że brakuje wi
 W materiałach w tym repoztirium podzielę się z Tobą moimi doświadczeniami. Opiszę na co zwracać uwagę począwszy od planowania, przez wykonanie testów aż po zaraportowanie wyników. Podpowiem jak uniknąć częstych błędów. Moje podejście nazwałem **Power Performance Testing**. Korzysta z niego wielu moich podopiecznych i wierzę, że sprawdzi się również w Twoim projekcie!
 
 ## Spis treści
-### Testowanie wydajności 
-- [Testowanie wydajności w projekcie]()
+### Testowanie wydajności
+- [Wprowadzenie](./docs/01-power-performance-testing.md) 
+- [Testowanie wydajności w projekcie](./docs/02-testowanie-w-projekcie.md)
 - [Wymagania]()
 - [Przygotowanie środowiska]()
 - [Wybór scenariuszy]()

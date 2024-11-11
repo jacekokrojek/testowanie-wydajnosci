@@ -1,5 +1,6 @@
 # Wprowadzenie
 
+Zaczynając warto lepiej zrozumieć dlaczego chcemy poznać świat testowania wydajności.
 
 ## Dlaczego należy testować wydajność 
 
@@ -11,9 +12,9 @@ O problemach serwisu użytkownicy szybko poinformują w mediach społecznościow
 
 Wyniki analizy [Case Studies](#) pokazującących, że problemy z wydajnością dotykały większości testowanych przeze mnie aplikacji. Testy wydajności powinny być zatem nieodłącznym elementem przygotowania do wdrożenia.
 
-## Power Performance Testing
+## Dlaczego Power Performance Testing
 
-Nie musisz być ekpertem testowania wydajności aby przygotować Twoją aplikację do wdrożenia. Czasy długich analiz, obszernych specyfikacji i raportów oraz kosztownych narzędzi minęły. Power Performance Testing to proste ale skuteczne podejście, które pozwoli każdemy testorowi zadbać w porę o wydajność.Dzięki niemu szybko i dokładnie:
+Czasy długich analiz, obszernych specyfikacji i raportów oraz kosztownych narzędzi minęły. Moje doświadczenia pokazują, że testy wydajności można z powodzeniem przeprowadzić zdecydowanie mniejszym kosztem. Nie musisz być też ekpertem testowania wydajności aby przygotować aplikacje na duże obciążenia. Power Performance Testing to proste ale skuteczne podejście, które pozwoli każdemy testorowi zadbać w porę o wydajność. Dzięki niemu szybko i dokładnie:
 
 - określisz wymagania 
 - przygotujesz środowisko testowe
