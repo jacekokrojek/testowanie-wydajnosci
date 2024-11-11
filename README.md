@@ -13,13 +13,14 @@ W materiałach w tym repoztirium podzielę się z Tobą moimi doświadczeniami. 
 - [Wprowadzenie](./docs/01-power-performance-testing.md) 
 - [Testowanie wydajności w projekcie](./docs/02-testowanie-w-projekcie.md)
 - [Wymagania]()
-- [Przygotowanie środowiska]()
+- [Przygotowanie środowiska](./docs/04-przygotowanie-srodowiska-testowego.md)
 - [Wybór scenariuszy]()
-- [Przeprowadzanie testów]()
-- [Analiza wyników]()
+- [Przeprowadzanie testów](./docs/06-testowanie.md)
+- [Analiza wyników](./docs/07-analiza-wynikow.md)
 ### Testowanie wydajności z perspektywy użytkownika
 - [Metryki użytkownika przeglądarki]()
 
 ### Dodatkowe materiały
 - [Podstawy protokołu HTTP](./http.md)
+- [Monitorowanie środowiska z PLG](./docs/monitorowanie.md)
 
