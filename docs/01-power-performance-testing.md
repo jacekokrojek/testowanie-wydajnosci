@@ -1,6 +1,5 @@
 # Wprowadzenie
 
-Kilka słów dlaczego należy testować wydajność i na co zwracać uwagę
 
 ## Dlaczego należy testować wydajność 
 
@@ -23,8 +22,4 @@ Nie musisz być ekpertem testowania wydajności aby przygotować Twoją aplikacj
 
 Power Performance Testing to też narzędzia, które pozwalają na nagranie testu i symulowanie dużego obciążenia niedużym kosztem.
 
-### Dodatkowe materiały
-
 [^1]: [Google Micro-Moments](https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/micro-moments/)
-
-ś w s t r
