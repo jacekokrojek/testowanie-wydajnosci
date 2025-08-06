@@ -25,6 +25,11 @@ Przykładowe procedury
     | Wydajność zapytania    | ContactsWS/login             |
     | Zapytania SOAP         | ContactsWS/getData           |
 
+* Nagłówek do zapytań SOAP
+  
+    | Nagłówek               | Wartość                      |
+    |------------------------|------------------------------|
+    | Content-Type           | text/xml; charset=utf-8      |
 
 * Dane do logowania
 
@@ -67,7 +72,7 @@ Przykładowe procedury
     </soapenv:Body>
     </soapenv:Envelope>
     ```
-  * Zapytanie changeStatus
+* Zapytanie changeStatus
     ```xml
     <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pl="http://pl.ericpol.contacts.ws/">
     <soapenv:Header/>
