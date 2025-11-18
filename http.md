@@ -1,12 +1,4 @@
----
-title: "Jak działa protokół HTTP"
-excerpt: "Protokół HTTP to "
-publishDate: "2023-10-08T11:39:36.050Z"
-image: "/images/posts/http-1.png"
-author: "Jacek Okrojek"
-tags: [wydajość, początkujący, ]
-category: "API, Wydajność"
----
+# Protokół HTTP
 
 Protokół HTTP służy do wymiany informacji pomiędzy serwerem a przeglądarką internetową lub innymi aplikacjami. Jest to protokół tekstowy. Oznacza to, że przesyłane zapytania i odpowiedzi mają formę tekstu. Tekst ten ma określoną strukturę i dzięki temu jest rozumiany przez strony komunikacji. 
 Przykład poniżej pokazuje zapytanie jakie przeglądarka wysyła jeśli użytkownik chce zobaczyć treść strony głównej serwisu Wikipedia jaki znajduje się pod adresem https://pl.wikipedia.org/. 
